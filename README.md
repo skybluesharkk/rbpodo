@@ -1,3 +1,29 @@
+# RB 텔레오퍼레이션 워크스페이스
+
+> 이 레포는 **Open-Teach 기반 텔레오퍼레이션 프로젝트**의 일부입니다.
+> Meta Quest 3로 RB 로봇 팔을 제어하려면 Open-Teach 레포와 함께 사용하세요.
+
+## 워크스페이스 세팅
+
+```bash
+mkdir rb_teleop && cd rb_teleop
+git clone https://github.com/<your-account>/rbpodo.git
+git clone https://github.com/<your-account>/Open-Teach.git
+```
+
+이후 `Open-Teach/README.md`의 세팅 가이드를 따라주세요.
+
+## 빠른 연결 테스트
+
+```bash
+conda activate rbpodo
+python examples/basic_check.py   # ROBOT_IP를 실제 IP로 변경 후 실행
+```
+
+한국어 API 레퍼런스는 [RB_GUIDE.md](RB_GUIDE.md)를 참고하세요.
+
+---
+
 # RBPodo
 
 <p>
